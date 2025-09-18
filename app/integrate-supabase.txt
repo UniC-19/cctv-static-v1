@@ -1,0 +1,24 @@
+Reference :https://www.youtube.com/watch?v=jA2-IwR0zjk
+----------------
+
+create next app
+install prisma:
+npm install prisma typescript tsx @types/node --save-dev
+npx prisma init   -->this will create prisma shema file
+
+-----------------
+set up database
+1.create supabase
+2.note down the password(Ebalin@1411)
+3.create database
+4. click connect button and note down the 
+Transaction pooler:
+
+postgresql://postgres.vpkcwniuctvcqqozunwq:Ebalin@1411@aws-1-ap-south-1.pooler.supabase.com:6543/postgres
+
+Session Pooler:
+
+postgresql://postgres.vpkcwniuctvcqqozunwq:Ebalin@1411@aws-1-ap-south-1.pooler.supabase.com:5432/postgres
+
+
+5.npx prisma db push
